@@ -64,7 +64,9 @@ Regression     classification
 <p>we limit the depth of the tree to avoid overfitting.</p>
 <p>learn quirks from a specific dataset and make it harder to predict the whole population.</p>
 
-
+<h2>Scipy</h2>
+<p>first create a func for predicted equation.the first argument must be x</p>
+<p>then define x and y data point using np.array</p>
 
 
 
