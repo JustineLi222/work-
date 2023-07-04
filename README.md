@@ -36,5 +36,12 @@ https://www.youtube.com/watch?v=MSKYeWfsNO0
 
 <h2>Decision tree</h2>
 <p>https://www.youtube.com/watch?v=cIbj0WuK41w</p>
+<pre><p>  
+       supervised
+            |
+      |------------|
+Regression     classification
+</p></pre>
+<p>recursion until the leaf node ,the result of prediction can be found in leaf node</p>
 
 
