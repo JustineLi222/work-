@@ -32,10 +32,26 @@ https://www.youtube.com/watch?v=MSKYeWfsNO0
 <h2>Random Forest</h2>
 <p>Model ensembing</p>
 <p>increase test accuracy and lower the cost using decision tree</p>
+<p>train bunch of decision tree to form a forest</p>
+<p>take the most frequency result of decision trees as final prediction</p>
+<p>regression:average the result of decision tree</p>
+<p>uncorrelatedness increase the accuracy</p>
+<p>uncorrelating tree method:</p>
+<ol>
+       <li>Bootstrapping
+              <p>sampling several small portion of the large dataset  </p>
+       </li>
+       <li>Bootstrap aggregrating</li>
+       <li>Feature randomness
+              <p>limit the feature that the tree can split on</p>
+       </li>
+       
+</ol>
 <p>https://www.youtube.com/watch?v=cIbj0WuK41w</p>
 
 <h2>Decision tree</h2>
 <p>https://www.youtube.com/watch?v=cIbj0WuK41w</p>
+<p>Repeating asking true or false question to split the data into purest subgroups</p>
 <pre><p>  
        supervised
             |
@@ -43,5 +59,12 @@ https://www.youtube.com/watch?v=MSKYeWfsNO0
 Regression     classification
 </p></pre>
 <p>recursion until the leaf node ,the result of prediction can be found in leaf node</p>
+<p>After comparing each possible variable,the decision tree picks the one that leads to the purest branches.</p>
+<p>Keep on branching until reach the purest state or max depth=3 of the tree.</p>
+<p>we limit the depth of the tree to avoid overfitting.</p>
+<p>learn quirks from a specific dataset and make it harder to predict the whole population.</p>
+
+
+
 
 
