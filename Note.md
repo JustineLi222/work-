@@ -85,5 +85,24 @@ https://www.youtube.com/watch?v=75mdKyA76i8
 <p>creating a curve that fits all data points</p>
 <p>predict what other data point will be by extrapolation</p>
 
+<h3>how curve fitting find the best fit?</h3>
+https://www.youtube.com/watch?v=peBOquJ3fDo
+<u1>
+       <li>One way of doing this is to minimize 
+square of different between the estimated value and orginal y value by adjusting the parameters in beta. 
+              This is called the method of least squares
+       </li>
+       <li>using maximum likelihood function to find the best fit for beta</li>
+</u1>
+<p>popt: p optimal</p>
+<p>pcov: p covariance ,it returns a matrix</p>
+<p>it gives an estimate of error of estimated parameters</p>
+<p>the diagonal value of matrix is correspond to each parameters</p>
+<p>if one of the value is very large,it means the chances of error is large so the paramter is not useful because changing the value of that paramter don't have great effect on the model</p>
+<p>defining the region of curve fitting</p>
+<p>x_data = x_stuff[(x_stuff>725) & (x_stuff<850)]
+y_data = y_stuff[(x_stuff>725) & (x_stuff<850)]</p>
+
+
 
 
