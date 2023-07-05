@@ -68,5 +68,18 @@ Regression     classification
 <p>first create a func for predicted equation.the first argument must be x</p>
 <p>then define x and y data point using np.array</p>
 
+<h1>5/7</h1>
+<h2>Train scipy to find the coefficient of the curve</h2>
+<h2>open virutal env</h2>
+<p>avoid conflicts of different package in different folder</p>
+<pre>python3 -m venv .env
+source .env/bin/activate</pre>
+<h2>find peaks in graph</h2>
+https://www.youtube.com/watch?v=75mdKyA76i8
+<h2>freeze requirement</h2>
+<p>open a new file to store installed package</p>
+<h2>curve fitting</h2>
+
+
 
 
