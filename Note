@@ -79,7 +79,11 @@ https://www.youtube.com/watch?v=75mdKyA76i8
 <h2>freeze requirement</h2>
 <p>open a new file to store installed package</p>
 <h2>curve fitting</h2>
+<p>The goal of curve fitting</p>
 
+<p>Purpose of interpolation:</p>
+<p>creating a curve that fits all data points</p>
+<p>predict what other data point will be by extrapolation</p>
 
 
 
