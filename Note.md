@@ -87,6 +87,7 @@ https://www.youtube.com/watch?v=75mdKyA76i8
 
 <h3>how curve fitting find the best fit?</h3>
 https://www.youtube.com/watch?v=peBOquJ3fDo
+https://github.com/lukepolson/youtube_channel/blob/main/Python%20Tutorial%20Series/curvefit1.ipynb
 <u1>
        <li>One way of doing this is to minimize 
 square of different between the estimated value and orginal y value by adjusting the parameters in beta. 
