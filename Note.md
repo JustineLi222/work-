@@ -120,4 +120,4 @@ y_data = y_stuff[(x_stuff>725) & (x_stuff<850)]</p>
 <p>something that is not an object:numbers,null,string,boolean</p>
 <p>but you can still use length function to check the string length as javascript will turn string into an object temporilary </p>
 <h3>Why creating an object?</h3>
-<p>more organized/p>
+<p>more organized</p>
