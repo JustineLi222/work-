@@ -103,7 +103,21 @@ square of different between the estimated value and orginal y value by adjusting
 <p>defining the region of curve fitting</p>
 <p>x_data = x_stuff[(x_stuff>725) & (x_stuff<850)]
 y_data = y_stuff[(x_stuff>725) & (x_stuff<850)]</p>
+<h1>6/7/2023</h1>
 
+<h2>linear regression</h2>
+<p>use it to find coefficient of a linear curve</p>
+<p>y=a+bx</p>
+<p>b=r*sy/sx</p>
+<p>s is standard deviation and r is Pearson's correlation coefficient</p>
+<p>a=mean of y - mean of x multiple b</p>
 
-
-
+<h2>Some basics of javscript</h2>
+<p>all things in javascript can be object</p>
+<p>an object has property and method</p>
+<p>property has an value e.g car:"red"</p>
+<p>method just like an function</p>
+<p>something that is not an object:numbers,null,string,boolean</p>
+<p>but you can still use length function to check the string length as javascript will turn string into an object temporilary </p>
+<h3>Why creating an object?</h3>
+<p>more organized/p>
