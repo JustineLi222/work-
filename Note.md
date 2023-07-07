@@ -121,3 +121,18 @@ y_data = y_stuff[(x_stuff>725) & (x_stuff<850)]</p>
 <p>but you can still use length function to check the string length as javascript will turn string into an object temporilary </p>
 <h3>Why creating an object?</h3>
 <p>more organized</p>
+<h3>Spread operator</h3>
+<p>add existing array into new array</p>
+
+<h2>7/7</h2>
+<h2>M5stickC</h2>
+<p>IoT development platform</p>
+<p>based on esp32</p>
+<h3>applications</h3>
+<ul>
+       <li>watches</li>
+       <li>Gopro
+       <p>use to take a photo or switch to video mode</p>
+       </li>
+</ul>
+<p>can connected to internet by WiFi</p>
