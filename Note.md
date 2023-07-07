@@ -134,5 +134,6 @@ y_data = y_stuff[(x_stuff>725) & (x_stuff<850)]</p>
        <li>Gopro
        <p>use to take a photo or switch to video mode</p>
        </li>
+       <li>remote controller for tv</li>
 </ul>
 <p>can connected to internet by WiFi</p>
