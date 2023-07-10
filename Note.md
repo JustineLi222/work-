@@ -220,7 +220,21 @@ var ages:[Int]=[]
 <p>division: if calculating fraction,need to change both of var to double/float</p>
 <h4>Optionals</h4>
 <p>handles the absence of values</p>
-<p>unwrap optionals: know the var is nil or has a value</p>
+<p>declare optionals: var d:String?</p>
+<p>unwrap optionals: before you access the function</p>
 <p>use ! at the end of the var to unwrap the optional and get the value</p>
+       <pre>
+              if present!=nil {
+                     print(present!.surprise())
+              }
+       </pre>
+<p>optional binding</p>
+<pre>
+       if let actualpresent=present{
+              print(actualpresent.surprise())
+       }
+</pre>
+<p>if it is nil ,it going to pass through if statement</p>
 <p>unwrapped variable: var d:String!</p>
 <p>xcode will not check unwrapped variable is nil or not so the program will crash more possibily.</p>
+
