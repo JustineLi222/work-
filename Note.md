@@ -137,3 +137,26 @@ y_data = y_stuff[(x_stuff>725) & (x_stuff<850)]</p>
        <li>remote controller for tv</li>
 </ul>
 <p>can connected to internet by WiFi</p>
+
+<h2>10/7</h2>
+<h3>Swift</h3>
+<p>Assets stores color and images </p>
+<h4>Types</h4>
+<p>Int</p>
+<p>e.g var highscore: Int = 0</p>
+<p>Double</p>
+<p>has at least 15 d.p</p>
+<p>Float</p>
+<p>at most 6 d.p</p>
+<p>String</p>
+<p>e.g var myname: String= "peter"</p>
+<p>Bool</p>
+<p>e/g var isDarkMoodeOn: Bool=true</p>
+<p>you can create your custom type which is class</p>
+<h4>Type inference</h4>
+<p>just like python</p>
+<p>array</p>
+<p>e.g var ages=[1,2,3]</p>
+<p>you can define a empty int array.
+var ages:[Int]=[]
+</p>
