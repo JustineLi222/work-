@@ -160,3 +160,50 @@ y_data = y_stuff[(x_stuff>725) & (x_stuff<850)]</p>
 <p>you can define a empty int array.
 var ages:[Int]=[]
 </p>
+<p>add item to the end:  ages.append()</p>
+<p>add item to anywhere you want: ages.insert(value you want to add, at: index)</p>
+
+<p>ages.count to find the length of array</p>
+<p>? / optional means it can be no value and nil</p>
+<p>Sets</p>
+<p>unordered,no duplicates</p>
+<p>faster insertion,removal and lookup than array</p>
+<p>var ageSet : Set<Int> =[1,2,3]</p>
+<p>can create a set based on the array by Set()</p>
+<p>conform hashable</p>
+<p>the set can find the value in constant time using hash value</p>
+<p>using ageSet.contains(value you want) to check whether it is in the set</p>
+<p>ageSet.insert(value) no need specify position cuz it is unordered </p>
+<p>Dictionaries</p>
+<p>key:value </p>
+<pre><p>declare dictionary:   
+       let devices: [String:String]=[
+       "phone": "iPhoneX",
+       "laptop": "Macbook pro"
+       ]  
+      // key is always string</p></pre>
+
+<h4>Functions</h4>
+<p>func funcname(){}</p>
+<p>func function2(hi:Int)->Int. it is going to return a Int</p>
+<p>0...25 means 0 to 25</p>
+<p>0..<25 means 0 tp 24</p>
+<h4>enum</h4>
+<p>stand for enumeration</p>
+<p>a group of values that are related</p>
+<pre>
+       enum Phone{
+              case iPhone11Pro
+              case iPhoneSE
+       }
+</pre>
+<p>use dot to access item inside e.g .iPhone11Pro</p>
+<p>We use enum because it can reduce error due to typo</p>
+<p>You can also give enum a raw value</p>
+<pre>
+       enum Phone:String{
+              case iPhone14: "This is will be my next Phone"
+              case iPhoneSE: "small"
+       }
+</pre>
+<p>extract the raw value by Phone.iPhone14.rawValue</p>
