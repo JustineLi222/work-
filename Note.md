@@ -207,3 +207,20 @@ var ages:[Int]=[]
        }
 </pre>
 <p>extract the raw value by Phone.iPhone14.rawValue</p>
+<h4>Switch statement</h4>
+<pre>
+       switch(Phone){
+       case .iPhone14:
+              print("1")
+       case .iPhoneSE:
+              print("2")
+       }
+</pre>
+<h4>Operators</h4>
+<p>division: if calculating fraction,need to change both of var to double/float</p>
+<h4>Optionals</h4>
+<p>handles the absence of values</p>
+<p>unwrap optionals: know the var is nil or has a value</p>
+<p>use ! at the end of the var to unwrap the optional and get the value</p>
+<p>unwrapped variable: var d:String!</p>
+<p>xcode will not check unwrapped variable is nil or not so the program will crash more possibily.</p>
