@@ -237,4 +237,6 @@ var ages:[Int]=[]
 <p>if it is nil ,it going to pass through if statement</p>
 <p>unwrapped variable: var d:String!</p>
 <p>xcode will not check unwrapped variable is nil or not so the program will crash more possibily.</p>
-
+<h2>11/7</h2>
+<h3>BLE(bluetooth low energy)</h3>
+<p>consume less energy than bluetooth.</p>
